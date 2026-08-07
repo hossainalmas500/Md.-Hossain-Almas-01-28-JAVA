@@ -1,0 +1,5 @@
+public class myfeeling {
+    public static void main(String[] args) {
+        System.out.println("I have done C Programming in my previous semister , But JAVA is more interesting comparing to C . I have done some code in the given assignment ,Honestly saying  Sometimes I take help from internet then I done the code . I think If I practice more I can do well in Java . Most of the code I have done I already forgot . I need more time Sir. ");
+    }
+}

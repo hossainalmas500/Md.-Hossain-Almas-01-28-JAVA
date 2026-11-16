@@ -1,0 +1,18 @@
+
+public class VariableDemo {
+    // Instance variable (class-er vitor kintu method-er baire declare kora hoy)
+    int instanceVar = 50;
+
+    void showVariables() {
+        // Local variable (shudhu ei method-er vitorei kaj korbe)
+        int localVar = 20;
+
+        System.out.println("Local Variable: " + localVar);
+        System.out.println("Instance Variable: " + instanceVar);
+    }
+
+    public static void main(String[] args) {
+        VariableDemo obj = new VariableDemo();
+        obj.showVariables();
+    }
+}

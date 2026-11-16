@@ -1,0 +1,15 @@
+public class ShiftOperator {
+    public static void main(String[] args) {
+        int num = 8; // Binary-te 8 mane 1000
+
+        // Left shift (<<) mane 2 diye gun kora (8 * 2^1 = 16)
+        int leftShift = num << 1;
+        
+        // Right shift (>>) mane 2 diye vag kora (8 / 2^1 = 4)
+        int rightShift = num >> 1;
+
+        System.out.println("Original Number: " + num);
+        System.out.println("After Left Shift (num << 1): " + leftShift);
+        System.out.println("After Right Shift (num >> 1): " + rightShift);
+    }
+}

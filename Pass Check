@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class PasswordCheck {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String correctPass = "java123"; // Fixed password set kora holo
+        String inputPass;
+
+        // Jotokkhon na sothik password dibe totokkhon loop cholbe
+        do {
+            System.out.print("Enter password: ");
+            inputPass = sc.nextLine();
+
+            if (!inputPass.equals(correctPass)) {
+                System.out.println("Wrong password! Try again.");
+            }
+        } while (!inputPass.equals(correctPass));
+
+        System.out.println("Access Granted! Password matched.");
+    }
+}
